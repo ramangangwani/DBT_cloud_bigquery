@@ -1,0 +1,16 @@
+sources:
+  - name: source
+    database: project-e00c4221-1694-4168-8a6
+    schema: source
+    tables:
+      - name: dim_store
+
+      - name: dim_customer
+
+      - name: dim_product
+
+      - name: dim_date
+
+      - name: fact_sales
+
+      - name: fact_returns
