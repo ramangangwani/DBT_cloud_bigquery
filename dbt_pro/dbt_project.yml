@@ -43,3 +43,6 @@ models:
     Gold:
       +materialized: table
       schema: gold
+seeds:
+  dbt_pro:
+    schema: bronze
