@@ -1,0 +1,1 @@
+select {{multiply(30,40)}} as result 

@@ -14,3 +14,4 @@ sources:
       - name: fact_sales
 
       - name: fact_returns
+      - name: items

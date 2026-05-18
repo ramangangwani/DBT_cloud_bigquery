@@ -1,0 +1,10 @@
+snapshots:
+  - name: gold_items
+    relation: ref('source_gold_items')
+    config:
+      database: project-e00c4221-1694-4168-8a6
+      schema: gold
+      strategy: timestamp
+      updated_at: updateDate
+      unique_key: id
+      dbt_valid_to_current: "TIMESTAMP('9999-12-31 00:00:00')"

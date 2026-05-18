@@ -1,0 +1,1 @@
+select * from {{ ref('bronze_sales') }} where sales_amount < 0
