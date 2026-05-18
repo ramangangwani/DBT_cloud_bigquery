@@ -1,6 +1,6 @@
 sources:
   - name: source
-    database: project-e00c4221-1694-4168-8a6
+    database: '{{ target.project }}'
     schema: source
     tables:
       - name: dim_store

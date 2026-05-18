@@ -10,4 +10,14 @@ dbt_pro:
       project: project-e00c4221-1694-4168-8a6
       threads: 1
       type: bigquery
+    prod:
+      dataset: staging
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: oauth
+      priority: interactive
+      project: my-project-prod-496410
+      threads: 1
+      type: bigquery   
   target: dev
